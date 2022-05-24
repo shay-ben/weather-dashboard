@@ -1,4 +1,26 @@
-.card {
+*{
+    box-sizing: border-box;
+    
+}
+
+.header {
+    background: linear-gradient(
+        45deg,  rgb(84, 108, 229, blue));
+
+}
+
+h1 {
+    text-align: center;
+    font: white;
+}
+
+#search-input {
+    position: relative;
+    vertical-align: top;
+
+}
+
+.searchBtn {
     position: relative;
     vertical-align: top;
 }
